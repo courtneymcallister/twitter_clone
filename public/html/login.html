@@ -5,18 +5,24 @@
     <title>Login to Twitterish</title>
     <link rel="stylesheet" href="/css/login.css">
   </head>
-  <body>
-    <header>
+  <body class="container">
+    <header class="heading-box">
       <h3>Log in to Twitterish</h3>
     </header>
     <main>
       <form action="/login" method="GET">
-        <input type="email" name="email" placeholder="Email"/>
-        <input type="password" name="password" placeholder="Password"/>
-        <button type="submit">Login</button>
+        <div>
+          <input class="input-form" type="email" name="email" placeholder="Email"/>
+        </div>
+        <div>
+          <input class="input-form" type="password" name="password" placeholder="Password"/>
+        </div>
+        <div>
+          <button class="button" type="submit">Log In</button>
+        </div>
       </form>
     </main>
-    <footer>
+    <footer class="footer-box">
       Don't have an account? <a href="/signup">Sign Up</a>
     </footer>
   </body>
