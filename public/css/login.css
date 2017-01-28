@@ -6,11 +6,13 @@
   font-weight: lighter;
   font-size: 14px;
   line-height: 10px;
+  background-color: white;
 }
 
 .container{
   text-align: center;
   border: 1px solid lightgrey;
+  background-color: white;
   border-radius: 5px;
   height: 320px;
   width: 600px;
@@ -29,6 +31,7 @@
   color: #8899a6;
   font-size: 15px;
   line-height: 10px;
+  background-color: white;
 }
 
 .button{
@@ -49,4 +52,14 @@
   padding: 3px;
   height: 25px;
   width: 300px;
+}
+
+#bg{
+  background-image: url(http://pic12.nipic.com/20110117/1369025_160745607000_2.jpg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
 }
