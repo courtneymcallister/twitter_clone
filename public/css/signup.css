@@ -20,8 +20,9 @@
   background: transparent;
   display: inline-block;
   position: relative;
-  top: 10px;
-  left: 13px;
+  top: 12px;
+  left: 15px;
+  height: 20px;
 }
 
 .icon-container{
@@ -105,9 +106,13 @@
   border-color: #56b4ef;
 }
 
-#link-style {
+.link-style {
   text-decoration: none;
   color: #1b95e0;
+}
+
+.link-style:hover{
+  text-decoration: underline;
 }
 
 .button {
@@ -139,4 +144,11 @@
 .footer-box a{
   color: #1b95e0;
   text-decoration: none;
+}
+
+.footer-links{
+}
+
+.footer-links:hover {
+  text-decoration: underline;
 }

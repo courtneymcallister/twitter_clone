@@ -1,13 +1,21 @@
 .button {
-  width: 150px;
+  width: 120px;
   border: 1px solid white;
   display: inline-block;
   text-align: center;
+  position: relative;
   border-radius: 5px;
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 10px;
-  margin-top: 15px;
+  margin-top: 22px;
+  background: transparent;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.button-container {
+  margin-right: 120px;
 }
 
 .pull-right {
@@ -18,16 +26,9 @@
 
 .button:hover {
   color: #e0245e;
-  opacity: 1;
-}
-
-.button-see-thru {
-  opacity: 0.5;
-}
-
-.button-white {
   background-color: white;
 }
+
 
 .banner {
   background-color: #e0245e;
@@ -37,16 +38,18 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .banner h1{
   text-align: center;
   font-size: 48px
-  font-weight: 500;
+  font-weight: 300;
   padding: 85px 0;
   margin: 0;
   color: white;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .nav-container{
@@ -75,6 +78,10 @@ html, body {
   border-bottom: 3px solid #e0245e;
 }
 
+.main-title-box{
+  margin-left: 15px;
+}
+
 .content-box {
   margin: 5px;
   width: 100%;
@@ -96,12 +103,15 @@ html, body {
 
 }
 
-.content-box h4,h5,h2,p,a{
+.content-box h4,h5,h2, h3,p,a{
   margin-left: 5px;
 }
 
-.content-box section:nth-child(4){
+
+.sign-up-box {
   background-color: #e0245e;
   color: white;
   text-align: center;
+  vertical-align: baseline;
+  padding: 20px;
 }
