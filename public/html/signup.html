@@ -1,1 +1,56 @@
-signup
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up for Twitterish</title>
+    <link rel="shortcut icon" href="../images/twitter-blue.png">
+    <link rel="stylesheet" href="/css/signup.css">
+  </head>
+  <body class="page-container">
+    <nav>
+      <div class="nav-bar" id="gradient">
+        <a href="#"><div class="icon-container"><img class="icon" src="../images/twitter-24.png" alt="Home"></div></a>
+        <a class="nav-bar-text" id="push-left" href="#">Have an account? Log in
+          <div id="same-line" class="caret"></div>
+        </a>
+        <a class="nav-bar-text" href="#">Language: English
+            <div id="same-line" class="caret"></div>
+        </a>
+      </div>
+    </nav>
+    <div class="text-container">
+      <header>
+        <h1>Join Twitterish today.</h1>
+      </header>
+      <main>
+        <form action="/signup" method="get">
+          <div>
+            <input class="input-form" type="text" name="fullName" placeholder="Full name">
+          </div>
+          <div>
+            <input class="input-form" type="email" name="email" placeholder="Phone or Email">
+          </div>
+          <div>
+            <input class="input-form" type="password" name="password" placeholder="Password">
+          </div>
+          <div>
+            <label class="checkbox-label"><input type="checkbox" name="checkbox" checked>Tailor Twitterish based on my recent website visits.
+              <a id="link-style" href="#">Learn more.</a>
+            </label>
+          </div>
+          <div>
+            <button class="button" type="submit">Sign up</button>
+          </div>
+        </form>
+      </main>
+      <footer class="footer-box">
+        <p>By signing up, you agree to the
+          <a href="#">Terms of Service</a> and
+          <a href="#">Privacy Policy</a>, including
+          <a href="#">Cookie Use</a>. Others will be able to find you by email or phone number when provided.
+        </p>
+        <div><a href="#">Advanced options</a></div>
+      </footer>
+    </div>
+  </body>
+</html>
